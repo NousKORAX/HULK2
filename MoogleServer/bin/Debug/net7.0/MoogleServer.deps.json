@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MoogleServer/1.0.0": {
+        "dependencies": {
+          "MoogleEngine": "1.0.0",
+          "OpenNLP": "1.3.5"
+        },
+        "runtime": {
+          "MoogleServer.dll": {}
+        }
+      },
+      "OpenNLP/1.3.5": {
+        "runtime": {
+          "lib/net45/OpenNLP.dll": {
+            "assemblyVersion": "1.0.7182.26901",
+            "fileVersion": "1.0.7182.26901"
+          },
+          "lib/net45/SharpEntropy.dll": {
+            "assemblyVersion": "1.0.7182.26900",
+            "fileVersion": "1.0.7182.26900"
+          }
+        }
+      },
+      "MoogleEngine/1.0.0": {
+        "runtime": {
+          "MoogleEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoogleServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenNLP/1.3.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r+nfFaKo7f8H+GiylyM9TAlvWQEBiHSF+DzDChe13ftDBtBjo/t0Fc/hWNiRn3cqNJYgKc0u+pPD+QtH3Dgk+w==",
+      "path": "opennlp/1.3.5",
+      "hashPath": "opennlp.1.3.5.nupkg.sha512"
+    },
+    "MoogleEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
